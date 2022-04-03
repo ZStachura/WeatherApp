@@ -32,35 +32,37 @@
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="33dp"
+                    android:layout_marginStart="40dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="7dp"
                     android:src="@drawable/localization"
                     app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/miasto"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/miasto"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="17dp"
+                    android:layout_width="244dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="9dp"
-                    android:layout_marginEnd="211dp"
+                    android:layout_marginEnd="20dp"
                     android:layout_marginBottom="10dp"
                     android:text="Gliwice"
                     android:textColor="@color/black"
                     android:textSize="22dp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/imageButton"
+                    app:layout_constraintEnd_toStartOf="@+id/szukaj"
                     app:layout_constraintStart_toEndOf="@+id/imageView3"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.444" />
 
                 <ImageButton
-                    android:id="@+id/imageButton"
+                    android:id="@+id/szukaj"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginEnd="40dp"
                     android:src="@drawable/search"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -153,51 +155,51 @@
 
             <ImageView
                 android:id="@+id/imageView7"
-                android:layout_width="281dp"
-                android:layout_height="103dp"
+                android:layout_width="327dp"
+                android:layout_height="114dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="70dp"
-                android:layout_marginTop="54dp"
-                android:layout_marginEnd="60dp"
-                android:layout_marginBottom="68dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="41dp"
+                android:layout_marginBottom="58dp"
                 android:src="@drawable/wschodzachod" />
 
             <TextView
                 android:id="@+id/wschod"
-                android:layout_width="76dp"
-                android:layout_height="47dp"
+                android:layout_width="90dp"
+                android:layout_height="33dp"
                 android:layout_alignStart="@+id/imageView7"
                 android:layout_alignTop="@+id/imageView7"
                 android:layout_alignEnd="@+id/imageView7"
                 android:layout_alignBottom="@+id/imageView7"
-                android:layout_marginStart="7dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="198dp"
-                android:layout_marginBottom="26dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="37dp"
+                android:layout_marginEnd="222dp"
+                android:layout_marginBottom="44dp"
                 android:text="7:30"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="24dp" />
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/zachod"
-                android:layout_width="76dp"
-                android:layout_height="37dp"
+                android:layout_width="115dp"
+                android:layout_height="28dp"
                 android:layout_alignStart="@+id/imageView7"
                 android:layout_alignTop="@+id/imageView7"
                 android:layout_alignEnd="@+id/imageView7"
                 android:layout_alignBottom="@+id/imageView7"
-                android:layout_marginStart="195dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="36dp"
+                android:layout_marginStart="207dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="52dp"
                 android:text="17:30"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="24dp" />
+                android:textSize="20dp" />
 
         </RelativeLayout>
 
